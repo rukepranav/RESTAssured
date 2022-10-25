@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.069 sec <<< FAILURE!
+Verify 1st hospital #3(Validate Appointments)  Time elapsed: 0.21 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<204>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinition.CoWin.the_api_call_got_success_with_status_code(CoWin.java:55)
+	at ✽.the API call got success with status code "204"(file:///home/pranav_ruke/eclipse-workspace/RESTAssured/src/test/java/features/appointments.feature:21)
+
+Create new Repository is created for an authenticated user(Validate Repository Actions)  Time elapsed: 0.481 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<422> but was:<201>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinition.Repositories.response_status_code(Repositories.java:52)
+	at ✽.response status code "201"(file:///home/pranav_ruke/eclipse-workspace/RESTAssured/src/test/java/features/repositories.feature:6)
+

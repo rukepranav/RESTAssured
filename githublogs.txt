@@ -1,0 +1,74 @@
+Request method:	POST
+Request URI:	https://api.github.com/user/repos
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/vnd.github+json
+				Authorization=Bearer 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
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "RestAPI",
+    "description": "via Automation",
+    "homepage": null,
+    "isPrivate": null,
+    "hasIssues": null,
+    "hasProjects": null,
+    "hasWiki": null,
+    "teamId": 0,
+    "autoInit": null,
+    "gitIgnoreTemplate": null,
+    "licenseTemplate": null,
+    "allowSquashMerge": null,
+    "allowMergeCommit": null,
+    "allowRebaseMerge": null,
+    "allowAutoMerge": null,
+    "deleteBranchMerge": null,
+    "squashMergeCommitTitle": null,
+    "squashMergeCommitMessage": null,
+    "mergeCommitTitle": null,
+    "mergeCommitMessage": null,
+    "isTemplate": null,
+    "hasDownloads": null
+}
+HTTP/1.1 422 Unprocessable Entity
+Server: GitHub.com
+Date: Thu, 15 Sep 2022 09:26:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 271
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: public_repo, repo
+github-authentication-token-expiration: 2022-10-10 09:51:39 UTC
+X-GitHub-Media-Type: github.v3; format=json
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4999
+X-RateLimit-Reset: 1663237611
+X-RateLimit-Used: 1
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+X-GitHub-Request-Id: 8B75:149B:CFED1:FCC4D:6322EFDB
+
+{
+    "message": "Repository creation failed.",
+    "errors": [
+        {
+            "resource": "Repository",
+            "code": "custom",
+            "field": "name",
+            "message": "name already exists on this account"
+        }
+    ],
+    "documentation_url": "https://docs.github.com/rest/reference/repos#create-a-repository-for-the-authenticated-user"
+}

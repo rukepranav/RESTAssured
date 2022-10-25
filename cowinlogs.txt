@@ -1,0 +1,1026 @@
+Request method:	GET
+Request URI:	https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=411001&date=16-09-2022
+Proxy:			<none>
+Request params:	<none>
+Query params:	pincode=411001
+				date=16-09-2022
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Accept-Language=hi_IN
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Thu, 15 Sep 2022 09:26:47 GMT
+x-amzn-RequestId: 3c673f78-e4a7-4074-87d2-ae8035d51112
+X-DNS-Prefetch-Control: off
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+x-amzn-Remapped-Content-Length: 3112
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Content-Type, Authorization
+x-amzn-Remapped-Connection: keep-alive
+X-Download-Options: noopen
+x-amz-apigw-id: YfppsGUuBcwFjtQ=
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Expose-Headers: Version
+X-Amzn-Trace-Id: Root=1-6322efd7-4ebbdda32018ed9d5713ae58
+x-amzn-Remapped-Date: Thu, 15 Sep 2022 09:26:47 GMT
+Access-Control-Allow-Credentials: true
+Content-Encoding: gzip
+ETag: W/"c28-P8d7mlxtE+wX0PymXLpbzEee2tE"
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 c6009ddfc9f427867dff2ea4da6dffb4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM50-C1
+X-Amz-Cf-Id: LTMcsCOaLn6Y8RO13mkPTBUz7C0ujqxNhPLFIwVrweguK_faxr1Xaw==
+
+{
+    "sessions": [
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "8b39ed0b-91c2-4844-b24a-e80f6f4ebed7",
+            "date": "16-09-2022",
+            "available_capacity": 150,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 50,
+            "fee": "386.25",
+            "min_age_limit": 15,
+            "allow_all_age": true,
+            "vaccine": "COVAXIN",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "bca8769a-def7-4f8c-b272-92ad778e4ba6",
+            "date": "16-09-2022",
+            "available_capacity": 150,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 50,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 710653,
+            "name": "PMC P15 Healing Hands Cli D",
+            "address": "Dhole Patil Road",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "07:00:00",
+            "to": "23:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "7af75e82-f9bd-4bb4-a0ba-18635cdc30a4",
+            "date": "16-09-2022",
+            "available_capacity": 249,
+            "available_capacity_dose1": 25,
+            "available_capacity_dose2": 25,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "07:00AM-11:00AM",
+                    "seats": 0
+                },
+                {
+                    "time": "11:00AM-03:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "03:00PM-07:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "07:00PM-11:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "b12af3fe-ee2b-48a0-ae84-5e432196081d",
+            "date": "16-09-2022",
+            "available_capacity": 99,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 49,
+            "fee": "386.25",
+            "min_age_limit": 12,
+            "allow_all_age": true,
+            "vaccine": "COVOVAX",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 680657,
+            "name": "PMC P15 Ruby Hall Hosp Sasoon",
+            "address": "Near Railway Station Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "09:00:00",
+            "to": "16:00:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "38feeb62-496c-4ca5-b26e-7f0d78f7a6e0",
+            "date": "16-09-2022",
+            "available_capacity": 70,
+            "available_capacity_dose1": 10,
+            "available_capacity_dose2": 10,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "09:00AM-11:00AM",
+                    "seats": 0
+                },
+                {
+                    "time": "11:00AM-01:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "01:00PM-03:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "03:00PM-04:00PM",
+                    "seats": 0
+                }
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=411001&date=16-09-2022
+Proxy:			<none>
+Request params:	<none>
+Query params:	pincode=411001
+				date=16-09-2022
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Accept-Language=hi_IN
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Thu, 15 Sep 2022 09:26:48 GMT
+x-amzn-RequestId: 10be5e12-2e1a-4caf-9298-68df0632773c
+X-DNS-Prefetch-Control: off
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+x-amzn-Remapped-Content-Length: 3112
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Content-Type, Authorization
+x-amzn-Remapped-Connection: keep-alive
+X-Download-Options: noopen
+x-amz-apigw-id: Yfpp7HcUhcwFX1g=
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Expose-Headers: Version
+X-Amzn-Trace-Id: Root=1-6322efd8-4df1c574245b3e7f37a44e6e
+x-amzn-Remapped-Date: Thu, 15 Sep 2022 09:26:48 GMT
+Access-Control-Allow-Credentials: true
+Content-Encoding: gzip
+ETag: W/"c28-P8d7mlxtE+wX0PymXLpbzEee2tE"
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 be868d7f633deda2e751380068dbbab4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM50-C1
+X-Amz-Cf-Id: y43h0qK2CxXlX55hsK0y8fsJc_U0Og4g8q4xD8Tgx7AAgPyHVU8ALQ==
+
+{
+    "sessions": [
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "8b39ed0b-91c2-4844-b24a-e80f6f4ebed7",
+            "date": "16-09-2022",
+            "available_capacity": 150,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 50,
+            "fee": "386.25",
+            "min_age_limit": 15,
+            "allow_all_age": true,
+            "vaccine": "COVAXIN",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "bca8769a-def7-4f8c-b272-92ad778e4ba6",
+            "date": "16-09-2022",
+            "available_capacity": 150,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 50,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 710653,
+            "name": "PMC P15 Healing Hands Cli D",
+            "address": "Dhole Patil Road",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "07:00:00",
+            "to": "23:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "7af75e82-f9bd-4bb4-a0ba-18635cdc30a4",
+            "date": "16-09-2022",
+            "available_capacity": 249,
+            "available_capacity_dose1": 25,
+            "available_capacity_dose2": 25,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "07:00AM-11:00AM",
+                    "seats": 0
+                },
+                {
+                    "time": "11:00AM-03:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "03:00PM-07:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "07:00PM-11:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "b12af3fe-ee2b-48a0-ae84-5e432196081d",
+            "date": "16-09-2022",
+            "available_capacity": 99,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 49,
+            "fee": "386.25",
+            "min_age_limit": 12,
+            "allow_all_age": true,
+            "vaccine": "COVOVAX",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 680657,
+            "name": "PMC P15 Ruby Hall Hosp Sasoon",
+            "address": "Near Railway Station Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "09:00:00",
+            "to": "16:00:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "38feeb62-496c-4ca5-b26e-7f0d78f7a6e0",
+            "date": "16-09-2022",
+            "available_capacity": 70,
+            "available_capacity_dose1": 10,
+            "available_capacity_dose2": 10,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "09:00AM-11:00AM",
+                    "seats": 0
+                },
+                {
+                    "time": "11:00AM-01:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "01:00PM-03:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "03:00PM-04:00PM",
+                    "seats": 0
+                }
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=411001&date=16-09-2022
+Proxy:			<none>
+Request params:	<none>
+Query params:	pincode=411001
+				date=16-09-2022
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Accept-Language=hi_IN
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Thu, 15 Sep 2022 09:26:49 GMT
+x-amzn-RequestId: bc2479a3-6096-4d8c-8715-6719af4930a5
+X-DNS-Prefetch-Control: off
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+x-amzn-Remapped-Content-Length: 3112
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Content-Type, Authorization
+x-amzn-Remapped-Connection: keep-alive
+X-Download-Options: noopen
+x-amz-apigw-id: Yfpp9HRbhcwFZpA=
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Expose-Headers: Version
+X-Amzn-Trace-Id: Root=1-6322efd9-629fb6315ed245a25566b4e3
+x-amzn-Remapped-Date: Thu, 15 Sep 2022 09:26:49 GMT
+Access-Control-Allow-Credentials: true
+Content-Encoding: gzip
+ETag: W/"c28-P8d7mlxtE+wX0PymXLpbzEee2tE"
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 0ddc6b71729b6d1f980c1bc732e3b92e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM50-C1
+X-Amz-Cf-Id: bmsUhV7bJUQLcmK5xPHw-uuf2pBOa07FUH_cvbbHVnP_vSaM4JuNiQ==
+
+{
+    "sessions": [
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "8b39ed0b-91c2-4844-b24a-e80f6f4ebed7",
+            "date": "16-09-2022",
+            "available_capacity": 150,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 50,
+            "fee": "386.25",
+            "min_age_limit": 15,
+            "allow_all_age": true,
+            "vaccine": "COVAXIN",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "bca8769a-def7-4f8c-b272-92ad778e4ba6",
+            "date": "16-09-2022",
+            "available_capacity": 150,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 50,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 710653,
+            "name": "PMC P15 Healing Hands Cli D",
+            "address": "Dhole Patil Road",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "07:00:00",
+            "to": "23:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "7af75e82-f9bd-4bb4-a0ba-18635cdc30a4",
+            "date": "16-09-2022",
+            "available_capacity": 249,
+            "available_capacity_dose1": 25,
+            "available_capacity_dose2": 25,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "07:00AM-11:00AM",
+                    "seats": 0
+                },
+                {
+                    "time": "11:00AM-03:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "03:00PM-07:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "07:00PM-11:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "b12af3fe-ee2b-48a0-ae84-5e432196081d",
+            "date": "16-09-2022",
+            "available_capacity": 99,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 49,
+            "fee": "386.25",
+            "min_age_limit": 12,
+            "allow_all_age": true,
+            "vaccine": "COVOVAX",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 680657,
+            "name": "PMC P15 Ruby Hall Hosp Sasoon",
+            "address": "Near Railway Station Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "09:00:00",
+            "to": "16:00:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "38feeb62-496c-4ca5-b26e-7f0d78f7a6e0",
+            "date": "16-09-2022",
+            "available_capacity": 70,
+            "available_capacity_dose1": 10,
+            "available_capacity_dose2": 10,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "09:00AM-11:00AM",
+                    "seats": 0
+                },
+                {
+                    "time": "11:00AM-01:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "01:00PM-03:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "03:00PM-04:00PM",
+                    "seats": 0
+                }
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=411001&date=16-09-2022
+Proxy:			<none>
+Request params:	<none>
+Query params:	pincode=411001
+				date=16-09-2022
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Accept-Language=hi_IN
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Thu, 15 Sep 2022 09:26:49 GMT
+x-amzn-RequestId: 8c90dedf-5ed0-4947-acb3-73e775ea0999
+X-DNS-Prefetch-Control: off
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+x-amzn-Remapped-Content-Length: 3112
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Content-Type, Authorization
+x-amzn-Remapped-Connection: keep-alive
+X-Download-Options: noopen
+x-amz-apigw-id: Yfpp_H_OhcwFtSA=
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Expose-Headers: Version
+X-Amzn-Trace-Id: Root=1-6322efd9-26f643090d1f3a241b9a6b09
+x-amzn-Remapped-Date: Thu, 15 Sep 2022 09:26:49 GMT
+Access-Control-Allow-Credentials: true
+Content-Encoding: gzip
+ETag: W/"c28-P8d7mlxtE+wX0PymXLpbzEee2tE"
+Vary: Accept-Encoding
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 9e071895cd70ce9c96e164bb18e314c4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM50-C1
+X-Amz-Cf-Id: 8tcIivWVTY9fUrAjr3NMtUlRc9Jjsork_dg6edjlzL4X4luf6Gi1MQ==
+
+{
+    "sessions": [
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "8b39ed0b-91c2-4844-b24a-e80f6f4ebed7",
+            "date": "16-09-2022",
+            "available_capacity": 150,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 50,
+            "fee": "386.25",
+            "min_age_limit": 15,
+            "allow_all_age": true,
+            "vaccine": "COVAXIN",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "bca8769a-def7-4f8c-b272-92ad778e4ba6",
+            "date": "16-09-2022",
+            "available_capacity": 150,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 50,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 710653,
+            "name": "PMC P15 Healing Hands Cli D",
+            "address": "Dhole Patil Road",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "07:00:00",
+            "to": "23:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "7af75e82-f9bd-4bb4-a0ba-18635cdc30a4",
+            "date": "16-09-2022",
+            "available_capacity": 249,
+            "available_capacity_dose1": 25,
+            "available_capacity_dose2": 25,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "07:00AM-11:00AM",
+                    "seats": 0
+                },
+                {
+                    "time": "11:00AM-03:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "03:00PM-07:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "07:00PM-11:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 736344,
+            "name": "RurP/PCNT/Usha Nursing Home",
+            "address": "Usha Nursing Home 149 M G Road Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "15:30:00",
+            "to": "18:30:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "b12af3fe-ee2b-48a0-ae84-5e432196081d",
+            "date": "16-09-2022",
+            "available_capacity": 99,
+            "available_capacity_dose1": 50,
+            "available_capacity_dose2": 49,
+            "fee": "386.25",
+            "min_age_limit": 12,
+            "allow_all_age": true,
+            "vaccine": "COVOVAX",
+            "slots": [
+                {
+                    "time": "03:30PM-05:30PM",
+                    "seats": 0
+                },
+                {
+                    "time": "05:30PM-06:30PM",
+                    "seats": 0
+                }
+            ]
+        },
+        {
+            "center_id": 680657,
+            "name": "PMC P15 Ruby Hall Hosp Sasoon",
+            "address": "Near Railway Station Pune",
+            "state_name": "Maharashtra",
+            "district_name": "Pune",
+            "block_name": "Haveli",
+            "pincode": 411001,
+            "from": "09:00:00",
+            "to": "16:00:00",
+            "lat": 18,
+            "long": 73,
+            "fee_type": "Paid",
+            "session_id": "38feeb62-496c-4ca5-b26e-7f0d78f7a6e0",
+            "date": "16-09-2022",
+            "available_capacity": 70,
+            "available_capacity_dose1": 10,
+            "available_capacity_dose2": 10,
+            "fee": "386.25",
+            "min_age_limit": 18,
+            "max_age_limit": 44,
+            "allow_all_age": false,
+            "vaccine": "COVISHIELD",
+            "slots": [
+                {
+                    "time": "09:00AM-11:00AM",
+                    "seats": 0
+                },
+                {
+                    "time": "11:00AM-01:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "01:00PM-03:00PM",
+                    "seats": 0
+                },
+                {
+                    "time": "03:00PM-04:00PM",
+                    "seats": 0
+                }
+            ]
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://cdn-api.co-vin.in/api/v2/auth/public/generateOTP
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Accept-Language=hi_IN
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mobile": "8793590256"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 48
+Connection: keep-alive
+Date: Thu, 15 Sep 2022 09:26:50 GMT
+x-amzn-RequestId: 75ccee01-d327-46f0-9229-bc83b9ab0f42
+X-DNS-Prefetch-Control: off
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15552000
+x-amzn-Remapped-Content-Length: 48
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Content-Type, Authorization
+x-amzn-Remapped-Connection: keep-alive
+X-Download-Options: noopen
+x-amz-apigw-id: YfpqNHVuBcwFj4Q=
+x-amzn-Remapped-Server: 
+X-Content-Type-Options: nosniff
+ETag: W/"30-n7+05aq4ILQKx53TkbysR16Xgyo"
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Expose-Headers: Version
+Version: 72.0
+X-Amzn-Trace-Id: Root=1-6322efda-60acb8215c698f065ad8df28
+x-amzn-Remapped-Date: Thu, 15 Sep 2022 09:26:50 GMT
+Access-Control-Allow-Credentials: true
+X-Cache: Miss from cloudfront
+Via: 1.1 defc583148f78ecc5a2d1e640b68e462.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM50-C1
+X-Amz-Cf-Id: mSe87x64HNHF7yOSrPLG0o1pSCTlfjHCbBOrx_rP4Jqcs6uhTcWPJA==
+
+{
+    "txnId": "523210bb-66b6-42bc-88be-2133e2b8c878"
+}
+Request method:	POST
+Request URI:	https://cdn-api.co-vin.in/api/v2/auth/public/generateOTP
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Accept-Language=hi_IN
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "mobile": "1"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 48
+Connection: keep-alive
+Date: Thu, 15 Sep 2022 09:26:51 GMT
+x-amzn-RequestId: 046f3e64-83eb-46a2-8db8-ae1b094993f8
+X-DNS-Prefetch-Control: off
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=15552000
+x-amzn-Remapped-Content-Length: 48
+X-Frame-Options: DENY
+Access-Control-Allow-Headers: Content-Type, Authorization
+x-amzn-Remapped-Connection: keep-alive
+X-Download-Options: noopen
+x-amz-apigw-id: YfpqQHhyBcwFRzw=
+x-amzn-Remapped-Server: 
+X-Content-Type-Options: nosniff
+ETag: W/"30-Ojv1ZFBpVuPeXQRuhFeuSyuIyqs"
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Expose-Headers: Version
+Version: 72.0
+X-Amzn-Trace-Id: Root=1-6322efdb-21dd40fb5e281d2466e9fb1b
+x-amzn-Remapped-Date: Thu, 15 Sep 2022 09:26:51 GMT
+Access-Control-Allow-Credentials: true
+X-Cache: Miss from cloudfront
+Via: 1.1 fd483560525589f421c8cca5c0a4a5da.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BOM50-C1
+X-Amz-Cf-Id: EEqzdhlDCSC9cSHunUJ_pRYyCWUwMjInkZhHKZCbGznccLqECsxf-w==
+
+{
+    "txnId": "edadaac6-c80f-448b-8421-4657cecee5b7"
+}
